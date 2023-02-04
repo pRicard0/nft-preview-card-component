@@ -98,10 +98,12 @@ a {
     font-weight: 300;
 }
 
+a:hover {
+    color: hsl(178, 100%, 50%);
+}
+
 #avatar-image {
     height: 33px;
     border-radius: 100%;
     border: 1px solid white;
 }
-
-
