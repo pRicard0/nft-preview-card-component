@@ -41,6 +41,29 @@ body {
     border-radius: 15px;
 }
 
+.image-section {
+    position: relative;
+    height: 300px;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: hsla(178, 100%, 50%, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: 0.3s;
+}
+  
+.image-section:hover .overlay {
+    opacity: 1;
+}
+
 #equilibrium-image {
     height: 300px;
 }
