@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: white;
+    text-decoration: none;
+}
+
+body {
+    min-height: 100vh;
+    background-color: hsl(217, 54%, 11%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Outfit', sans-serif;
+}
+
+.title {
+    margin: 15px 0px;
+    font-size: 1.375em;
+}
+
+.title a {
+    font-weight: 600;
+}
+
+.text {
+    color: hsl(215, 51%, 70%);
+    font-weight: 300;
+    font-size: 1.125em;
+}
+
+.card {
+    background-color: hsl(216, 50%, 16%);
+    width: 350px;
+    height: 580px;
+    padding: 25px;
+    margin: auto;
+    border-radius: 15px;
+}
+
+#equilibrium-image {
+    height: 300px;
+}
+
+.numberdiv-and-textdiv{
+    margin: 25px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.numberdiv {
+    width: 93px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.number {
+    color: hsl(178, 100%, 50%);
+}
+
+.textdiv {
+    width: 95px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.875em;
+}
+
+#days-text {
+    font-weight: 400;
+}
+
+#clock-image {
+    height: 16px;
+}
+
+.line {
+    border: 1px solid hsl(215, 32%, 27%);
+    margin: 20px 0;
+  }
+
+.author-section {
+    display: flex;
+    align-items: center;
+}
+
+#author-text {
+    padding-left: 17px;
+    font-size: 1em;
+    font-weight: 400;
+}
+
+a {
+    font-weight: 300;
+}
+
+#avatar-image {
+    height: 33px;
+    border-radius: 100%;
+    border: 1px solid white;
+}
+
+
