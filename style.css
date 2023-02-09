@@ -102,9 +102,11 @@ body {
 }
 
 .line {
-    border: 0.5px solid hsl(215, 32%, 27%);
     margin: 20px 0;
-  }
+    border: none;
+    background-color: hsl(215, 32%, 27%);
+    height: 1px;
+}
 
 .author-section {
     display: flex;
